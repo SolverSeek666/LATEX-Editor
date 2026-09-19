@@ -14,12 +14,64 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <textarea id="input" placeholder="idk" spellcheck="false">
-  </textarea>
+  <p style="font-size: 40px;"><b>LATEX Editor</b></p>
+  <textarea id="input" placeholder="idk" spellcheck="false" font-size: 24px;></textarea>
   <br>
-  <div id="output">
-      this is output because yes
-  </div>
+  <div id="output"></div>
+  <br>
+  <br>
+  <br>
+  <p style="font-size: 24px;"><b>Conversion index</b></p>
+  <div class="index">
+    <div class="grid-header">Prompt</div>
+    <div class="grid-header">Symbol</div>
+    <div class="grid-header">Prompt</div>
+    <div class="grid-header">Symbol</div>
+    
+    <div class="grid-cell">+</div>
+    <div class="grid-cell">\( + \)</div>
+    <div class="grid-cell">-</div>
+    <div class="grid-cell">\( - \)</div>
+    
+    <div class="grid-cell">\times</div>
+    <div class="grid-cell">\( \times \)</div>
+    <div class="grid-cell">\div</div>
+    <div class="grid-cell">\( \div \)</div>
+    
+    <div class="grid-cell">=</div>
+    <div class="grid-cell">\( = \)</div>
+    <div class="grid-cell">\neq</div>
+    <div class="grid-cell">\( \neq \)</div>
+    
+    <div class="grid-cell">\lt</div>
+    <div class="grid-cell">\( \lt \)</div>
+    <div class="grid-cell">\gt</div>
+    <div class="grid-cell">\( \gt \)</div>
+    
+    <div class="grid-cell">\cdot</div>
+    <div class="grid-cell">\( \cdot \)</div>
+    <div class="grid-cell">\cdots</div>
+    <div class="grid-cell">\( \cdots \)</div>
+    
+    <div class="grid-cell">a^b</div>
+    <div class="grid-cell">\( a^b \)</div>
+    <div class="grid-cell">a_b</div>
+    <div class="grid-cell">\( a_b \)</div>
+    
+    <div class="grid-cell">\sqrt{a}</div>
+    <div class="grid-cell">\( \sqrt{a} \)</div>
+    <div class="grid-cell">\sqrt[n]{a}</div>
+    <div class="grid-cell">\( \sqrt[n]{a} \)</div>
+
+    <div class="grid-cell">\frac{a}{b}</div>
+    <div class="grid-cell">\( \frac{a}{b} \)</div>
+    <div class="grid-cell">\binom{a}{b}</div>
+    <div class="grid-cell">\( \binom{a}{b} \)</div>
+    
+    <div class="grid-cell">\sum_a^b</div>
+    <div class="grid-cell">\( \sum_a^b \)</div>
+    <div class="grid-cell">\prod_a^b</div>
+    <div class="grid-cell">\( \prod_a^b \)</div>
   <script src="main.js"></script>
 </body>
 </html>
