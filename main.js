@@ -1,3 +1,3 @@
 setInterval(() => {
-    document.getElementById("output").innerHTML = "$$"document.getElementById("input").innerHTML"$$";
+    document.getElementById("output").innerHTML = "$$"+document.getElementById("input").innerHTML+"$$";
 }, 10);
