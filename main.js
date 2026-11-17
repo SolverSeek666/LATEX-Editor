@@ -4,3 +4,7 @@ document.getElementById("input").addEventListener("input", () => {
     MathJax.typesetPromise([document.getElementById("output")]);
   }
 });
+
+document.getElementById('color').addEventListener('click', () => {
+  document.body.classList.toggle('white');
+});
