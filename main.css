@@ -9,6 +9,14 @@ a {
   color: #b4c8ff;
   text-decoration: none;
 }
+
+.white {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
 .index {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
